@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+  <title>write</title>
+</head>
+<body>
+
+<center>
+ <button class="button" id = "bold" >bold</button>
+ <button class="button"id="italic">italic</button>
+<button class="button"id="underlined">underlined</button>
+<select id="pf" onchange="pfont()">
+    <option value = "Verdana">Verdana</option>
+    <option value ="Courier New">Courier New</option>
+    <option value ="Georgia">Georgia</option>
+    <option value ="Impact">Impact</option>
+</select>
+
+<select id="ps" onchange="sfont()">
+    <option >10px</option>
+    <option >20px</option>
+    <option >30px</option>
+    <option >40px</option>
+</select>
+</center>
+<center>
+	<h1> Just  write  </h1>
+ 	<textarea id="p">
+    </textarea>
+ </center>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/main.js"></script>
+</html>
